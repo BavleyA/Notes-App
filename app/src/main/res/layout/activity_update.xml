@@ -6,43 +6,43 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".AddNoteActivity">
+    tools:context=".UpdateActivity">
 
     <TextView
-        android:id="@+id/addnoteheading"
+        android:id="@+id/editnoteheading"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginTop="16dp"
         android:fontFamily="@font/poppins"
-        android:text="Add Note"
+        android:text="Edit Note"
         android:textColor="@color/orange"
         android:textSize="24sp" />
     <ImageView
-        android:id="@+id/savebtn"
+        android:id="@+id/updatesavebtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/baseline_done_24"
         android:layout_alignParentEnd="true"
-        android:layout_alignTop="@id/addnoteheading"
+        android:layout_alignTop="@id/editnoteheading"
         android:layout_marginEnd="6dp"
         />
     <EditText
-        android:id="@+id/titleEdt"
+        android:id="@+id/updatetitleEdt"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:fontFamily="@font/poppins"
         android:hint="Enter The Title"
         android:padding="12dp"
         android:textSize="20sp"
-        android:layout_below="@id/addnoteheading"
+        android:layout_below="@id/editnoteheading"
         android:background="@drawable/orange_border"
         android:layout_marginTop="16dp"
         android:maxLines="1"
         />
 
     <EditText
-        android:id="@+id/contentEdt"
+        android:id="@+id/updatecontentEdt"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fontFamily="@font/poppins"
@@ -51,7 +51,7 @@
         android:padding="12dp"
         android:textSize="20sp"
         android:background="@drawable/orange_border"
-        android:layout_below="@id/titleEdt"
+        android:layout_below="@id/updatetitleEdt"
         android:layout_marginTop="12dp"
 
         />
